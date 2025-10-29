@@ -68,4 +68,51 @@ These jobs help maintain system accuracy and automate stock or order-related upd
 
 ## 🧩 Technology Stack
 
-- **Platfor**
+- **Platform:** Salesforce (Lightning Experience)  
+- **Language:** Apex  
+- **Automation Tools:** Salesforce Flows & Scheduled Batch Jobs  
+- **Database:** Salesforce Object Storage (Custom Objects)  
+- **Interface:** Salesforce Lightning App
+
+---
+
+## 🚀 Setup and Deployment
+
+1. **Log in** to your Salesforce Developer Org.  
+2. **Create the following Custom Objects:**
+   - `Vehicle__c`
+   - `Vehicle_Dealer__c`
+   - `Vehicle_Order__c`
+   - `Vehicle_Customer__c`
+   - `Vehicle_Test_Drive__c`
+   - `Vehicle_Service_Request__c`
+3. **Develop the Lightning App** and include all relevant tabs.  
+4. **Upload and deploy Apex classes:**
+   - `VehicleOrderTriggerHandler`
+   - `VehicleOrderTrigger`
+   - `VehicleOrderBatch`
+   - `VehicleOrderBatchScheduler`
+5. **Set up the Flows:**
+   - Auto Assign Dealer  
+   - Test Drive Reminder  
+6. **Test the system** using sample vehicle and customer records.
+
+---
+
+## 🌱 Future Improvements
+
+- Integration with third-party APIs for live vehicle data.  
+- Dashboard analytics for sales, customer behavior, and service tracking.  
+- Email and SMS notification integration for service updates and test drive confirmations.  
+- Enhanced error handling for large-scale data operations.
+
+---
+
+## 👨‍💻 Author
+
+**Hans Edwin Y. Maybituin**  
+Bachelor of Science in Information Technology  
+Asia Pacific College – MI-221
+
+---
+
